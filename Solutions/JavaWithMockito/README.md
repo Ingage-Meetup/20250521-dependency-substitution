@@ -1,8 +1,16 @@
 # Java Solution with Mockito Mocks
 This is a Java solution using [Mockito](https://site.mockito.org/) to implement mocks for the different dependencies in our unit tests.
 
-Definitely explore the Mockito site to learn more about mocking, and the benefits of using a library like this versus implementing your own
-mocks.
+## Running
+You will need a JDK (at least Java 17), but assuming you have that, once you clone the repo, you should be able to just run the following commands from the repo root:
+```bash
+cd Solutions/JavaWithMockito
+./gradlew test # This will run the unit tests
+./gradlew bootRun # This will run the application for you to actually use
+```
+
+## Why Mocking with Mockito?
+Definitely explore the Mockito site to learn more about mocking, and the benefits of using a library like this versus implementing your own mocks.
 
 But in a nutshell, here are the benefits of using any mocking library:
 - **Less Boilerplate:** Mocking libraries automatically generate mock objects, saving you from writing repetitive code.
